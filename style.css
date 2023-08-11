@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.main_cont{
+    border-radius: 10px;
+    width: 430px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(211, 211, 211, 0.287);
+
+}
+
+.sec_1 {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    
+}
+.sec_1_btns{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+}
+.sec_1_btns button{
+width: 100px;
+margin: 2px;
+border: none;
+height: 30px;
+cursor: pointer;
+font-weight: 600;
+color: rgb(252, 226, 226);
+border-radius: 5px;
+}
+.btn_1{
+    background-color: rgb(70, 91, 125);
+}
+.btn_2{
+    background-color: rgb(231, 60, 60);
+}
+.sec_1 img{
+    width: 400px;
+    position: absolute;
+    height: 250px;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+.price{
+    bottom: 10px;
+    left: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    color: rgb(59, 56, 56);
+    color: rgb(255, 255, 255);
+}
+
+.sec_icon{
+    position: absolute;
+    right: 30px;
+    bottom: 8px;
+    font-size: 20px;
+    display: flex;
+    
+    border-radius: 10px;
+}
+
+.sec_icon i{
+    background-color:  rgb(62, 57, 57);;
+    margin: 2px;
+    color: rgb(250, 217, 217);
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.sec_1_btns{
+    position: absolute;
+}
+
+
+
+
+.sec_2{
+    width: 400px;
+    height: 180px;
+    background-color: white;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 5px;
+}
+
+.sec_2 h5{
+    color: red;
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.sec_2 h3{
+    font-size: 25px;
+    margin: 8px 0px;
+    font-weight: 500;
+}
+
+.sec_2 p{
+    margin: 8px 0px;
+}
+
+.sec_2 div{
+    display: flex;
+
+}
+
+.sec_2 div h4{
+    margin: 8px 0px;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.cont_2{
+    display: flex;
+    margin-top: 2px;
+    border-radius: 5px;
+    width: 400px;
+    height: 80px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.cont_2 img{
+width: 50px;
+height: 50px;
+margin: 0px 5px;
+border-radius: 100%;
+}
+
+.img_name{
+    display: flex;
+    align-items: center;
+}
+
+.img_name h4{
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
